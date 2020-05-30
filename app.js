@@ -25,6 +25,7 @@ mongoose.connect("mongodb+srv://evortiz55:Cathay74@cluster0-vbnlb.mongodb.net/te
 }).catch(err => {
     console.log('ERROR:', err.message);
 });
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
