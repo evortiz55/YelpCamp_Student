@@ -7,3 +7,6 @@
 .delete-form {
     display: inline;
 }
+body {
+    padding-top: 7rem;
+}
