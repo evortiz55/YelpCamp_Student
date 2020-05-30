@@ -16,7 +16,7 @@ var commentRoutes       = require('./routes/comments'),
     indexRoutes         = require('./routes/index');
 
 mongoose.set('useCreateIndex', true);
-mongoose.connect("mongodb+srv://evortiz55:Cathay74@cluster0-vbnlb.mongodb.net/test?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://evortiz55:gXQWVHl0mkT13Yw5@cluster0-vbnlb.mongodb.net/test?retryWrites=true&w=majority", {
     useNewUrlParser: true, 
     useUnifiedTopology: true, 
     useFindAndModify: false
