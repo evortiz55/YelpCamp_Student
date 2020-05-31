@@ -2,11 +2,11 @@
 
 <div class="container">
     <div class="row">
-        <h1 style="text-align: center;">Edit Review: </h1>
+        <h1 style="text-align: center;"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Edit Review</h1>
         <div style="width: 30%; margin: 25px auto;">
             <form action="/campgrounds/<%= campground_id %>/comments/<%= comment._id %>?_method=PUT" method="POST">
                 <div class="form-group">
-                    <input class="form-control" type="text" name="comment[text]" value="<%= comment.text %> ">
+                    <textarea class="form-control" name="comment[text]" rows="5"><%= comment.text %></textarea>
                 </div>
                 <div class="form-group">
                     <button class="btn btn-lg btn-default btn-block btn-primary">Submit!</button>
