@@ -9,4 +9,13 @@
 }
 body {
     padding-top: 7rem;
+    position: relative;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.well {
+    margin-bottom: 3rem;
 }
